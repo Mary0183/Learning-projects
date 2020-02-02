@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width: 1050px;
+    height: 400px;
+    background-color: fffff;
+    display: flex;
+    
+  }
+  
+  .wrapper {
+    
+    width: 350px;
+      
+    
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 190%;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-family: Consolas,monaco,monospace; 
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 0;
+    font-family: Consolas,monaco,monospace;
+  
+  }
