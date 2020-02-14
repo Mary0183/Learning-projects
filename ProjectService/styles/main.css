@@ -1,0 +1,93 @@
+/*----------------------------------------------
+                    COLOR GUIDE
+    HOT PINK : RGB 238 124 115
+    DARK GREY: RGB 132 132 132
+    DARK BLUE: RGB 54 57 73
+    DARK HOT PINK: RGB 231 90 89
+    TEAL AQUA: RGB 57 172 152 
+-----------------------------------------------*/
+
+body {
+  font-size: 19px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  width: 1050px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.main-navigation a {
+  color: rgb(132, 132, 132);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.nav {
+  width: 1050px;
+  list-style: none;
+}
+
+.main-content {
+  background-color: rgb(238, 124, 115);
+}
+
+.box-row {
+  display: flex;
+}
+
+.box {
+  text-align: center;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.box ul {
+  padding: 0;
+}
+
+.box li {
+  list-style: none;
+  text-align: center;
+}
+
+.box a {
+  font-size: smaller;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+.box img {
+  width: 150px;
+}
+
+.icon-header {
+  width: 30px;
+  float: right;
+  padding-right: 80px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 100px;
+}
+
+p {
+  color: #ffffff;
+  text-align: center;
+  font-size: medium;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: medium;
+}
