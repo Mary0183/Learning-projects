@@ -1,0 +1,50 @@
+/* --------------------------------------------------------------------------
+                        COLOR GUIDE   
+                        
+BLUE: #217ce2
+WHITE BACKGROUND: #eaeaea
+WHITE INFO BOX: #f0f0f0
+YELLOW: #e8d700 
+DARK GREY: #3b3b3b
+---------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------
+                        GLOBAL STYLES
+---------------------------------------------------------------------------*/
+
+body {
+  font-size: 19px;
+  font-family: "PT Sans", sans-serif, Arial;
+}
+
+h1,
+h2 {
+  font-family: "PT Sans sc";
+}
+
+h1 {
+  font-size: 3.3684em;
+  line-height: 1.2656em;
+  margin-top: 0.4219em;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.2558em;
+  margin: 0.4219em auto 0.4219em auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

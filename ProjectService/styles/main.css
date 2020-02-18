@@ -1,10 +1,8 @@
 /*----------------------------------------------
                     COLOR GUIDE
+
     HOT PINK : RGB 238 124 115
     DARK GREY: RGB 132 132 132
-    DARK BLUE: RGB 54 57 73
-    DARK HOT PINK: RGB 231 90 89
-    TEAL AQUA: RGB 57 172 152 
 -----------------------------------------------*/
 
 body {
@@ -25,6 +23,7 @@ body {
   font-size: small;
   font-weight: bold;
   margin-left: 20px;
+  letter-spacing: 1.5px;
 }
 
 .nav {
@@ -42,8 +41,9 @@ body {
 
 .box {
   text-align: center;
-  width: 500px;
   padding-top: 20px;
+  padding-bottom: 50px;
+  margin-left: 150px;
 }
 
 .box ul {
@@ -53,10 +53,11 @@ body {
 .box li {
   list-style: none;
   text-align: center;
+  line-height: 10px;
 }
 
 .box a {
-  font-size: smaller;
+  font-size: 12px;
   text-decoration: none;
   color: #ffffff;
   font-weight: lighter;
@@ -77,17 +78,21 @@ h1 {
   color: #ffffff;
   text-align: center;
   padding-top: 100px;
+  letter-spacing: 3px;
 }
 
 p {
   color: #ffffff;
   text-align: center;
-  font-size: medium;
-  font-weight: lighter;
+  font-size: 15px;
 }
 
 h2 {
   color: #ffffff;
   text-transform: uppercase;
-  font-size: medium;
+  font-size: 15px;
+  line-height: 1.4211em;
+  margin-top: 1.4211em;
+  margin-bottom: 0em;
+  letter-spacing: 2px;
 }

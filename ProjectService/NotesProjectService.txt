@@ -1,0 +1,7 @@
+POner clases a todo
+para mover de derecha e izquierda con float
+margin: 0 auto ---> centralizar block elements
+
+Para los links tiene paddings alrededor, esos se pueden
+editar para cambiarlos de posicion
+
