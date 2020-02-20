@@ -20,10 +20,15 @@ body {
   padding: 0;
 }
 
+.content {
+  display: inline-block;
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
 .art-content {
   color: white;
   text-align: center;
-  height: 290px;
   margin-top: -95px;
   padding: 0;
 }
@@ -93,6 +98,20 @@ p {
   margin: 0 auto;
 }
 
+.box-wrapper {
+  float: left;
+  background-color: chocolate;
+  width: 190px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box {
+  width: 29%;
+  display: inline-block;
+  margin: 0 2%;
+}
+
 .box .icon-fire {
   margin-top: 19px;
   width: 70%;
@@ -108,24 +127,6 @@ p {
 }
 
 .box .icon-heart {
-  margin-top: -1px;
-  padding-left: 15px;
-  width: 70%;
-}
-
-.box .icon-laptop {
-  margin-top: -11px;
-  padding-left: 15px;
-  width: 70%;
-}
-
-.box .icon-refresh {
-  margin-top: -1px;
-  padding-left: 15px;
-  width: 70%;
-}
-
-.box .icon-speaker {
   margin-top: -1px;
   padding-left: 15px;
   width: 70%;
