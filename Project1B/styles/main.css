@@ -11,9 +11,8 @@ body {
     rgba(118, 103, 238, 0.639093137254902) 4%,
     rgba(52, 42, 129, 1) 55%
   );
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 50px;
+
+  margin: 50px 20px 0 20px;
 }
 
 .hero .logo {
@@ -39,7 +38,7 @@ body {
 }
 
 .art-content img {
-  width: 1110px;
+  width: 100%;
 }
 
 h1 {
@@ -53,7 +52,6 @@ h1 {
 }
 
 p {
-  margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -66,7 +64,8 @@ p {
   padding-top: 20px;
 }
 
-.buttons .button-blue {
+.buttons .button-blue,
+.buttons .button-pink {
   display: inline-block;
   border-radius: 5px;
   padding: 1rem 2rem;
@@ -86,27 +85,17 @@ p {
 }
 
 .buttons .button-pink {
-  display: inline-block;
-  border-radius: 5px;
-  padding: 1rem 2rem;
-  margin: 0;
-  text-decoration: none;
   background: rgb(255, 80, 123);
   background: linear-gradient(
     140deg,
     rgba(255, 80, 123, 1) 2%,
     rgba(255, 120, 163, 1) 54%
   );
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
 }
 
 .circle {
   border-radius: 50%;
-  background: rgb(101, 84, 251);
+  background: #6554fb;
   background: linear-gradient(
     16deg,
     rgba(101, 84, 251, 1) 2%,
@@ -134,6 +123,15 @@ p {
   display: inline-block;
   margin-top: 30px;
   padding-left: 5px;
+}
+
+.box-fire,
+.box-doc,
+.box-laptop,
+.box-refresh,
+.box-speaker,
+.box-heart {
+  cursor: pointer;
 }
 
 h2 {
